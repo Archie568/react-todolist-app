@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.header {
+    font-family: 'Cabin Sketch', sans-serif;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+.container-center {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #24c774 !important;
+}
+
+.btn-color {
+    background: #7424c7 !important;
+}
+
+.btn-color:hover {
+    color: #24c774 !important;
+    transition: ease-in-out 0.7s;
+}
+
+.list-color {
+    background: #c72477 !important;
+}
+
+.icon-mark {
+    font-size: 1.5rem;
+}
+
+.icon-mark:hover {
+    color: #24c774;
+    transition: ease-in-out 0.7s;
+}
+
+.icon-trash {
+    font-size: 1.5rem;
+}
+
+.icon-trash:hover {
+    color: #24c774;
+    transition: ease-in-out 0.7s;
+}
